@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;/* espaçamento da lateral sumiu*/
+    padding: 0; /* espaçamento interno */
+    box-sizing: border-box;
+}
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #08102B, #060B1D, #03050E, black);
+   
+}  
+
+header {
+    /*background-image: linear-gradient(to left, #3198e2cb, #B93590);*/
+    padding: 130px 30px;
+    background-image: url('../desafio-final/imagens/capa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+header h1{
+    color: #280a91;
+    text-decoration: none;  /*remove a linha abaixo da palavra*/
+    font-family:'Lobster', cursive;
+    text-shadow: 8px 5px 10px white ;  /*sombreamento no cabeçalho*/ 
+    font-size: 2.6rem; 
+}
+header h2{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+} 
+main{
+    margin: 30px;
+}
+main .container h3{
+    
+    font-size: 1.4rem;
+    margin-bottom: 5px auto;
+    color: white;
+}
+
+main .container h4{
+    font-size: 1.4rem;
+    margin-bottom: 5px auto;
+    color: white;
+}
+main .container .maisVistos{
+    display: flex;  
+    margin-block-end: 5px;
+}
+main .container .filmes{
+    display: flex;  
+    margin-bottom: 5px;
+}
+.filmesBons{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px #280a91;
+}
+.filmesBons img{
+    border-radius: 5px 5px 5px;
+    margin-bottom: 5px;
+
+}   
+.filme{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}  
+
+
+@media (min-width: 600px){
+    main .container .maisVistos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#header-top{         /cabeçalho/
+    padding: 200px; espaçamento entre cabeçalho,borda acima e abaixo/  
+    background-image: linear-gradient(to left, #3198e2cb, #B93590);
+    font-family:fantasy;
+    color: white;
+    text-shadow: 3px 3px 10px #000 ;  /sombreamento no cabeçalho/
+}*/
+
