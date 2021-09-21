@@ -16,7 +16,7 @@ body{
 header {
     /*background-image: linear-gradient(to left, #3198e2cb, #B93590);*/
     padding: 130px 30px;
-    background-image: url('../desafio-final/imagens/capa.jpg');
+    background-image: url('imagens/capa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center ;

@@ -1,0 +1,58 @@
+.flex-container{
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: row wrap; /*eixo primário*/
+    height: 500px;
+    justify-content: center;
+    align-content: space-around;
+}
+.flex-items{
+    background-color: rgb(230, 178, 141);
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+/*
+.div1{
+    font-size: 10 ;
+}
+.div2{
+    font-size: 5 ;
+}
+.div3{
+    font-size: 15 ;
+}
+.div4{
+    font-size: 20 ;
+}
+.div5{
+    font-size: 30 ;
+}
+*/
+
+
+
+
+
+/* 
+justify-content: a linha fica na vertical
+justify-content: flex-start; mantem do lado esquerdo
+justify-content: flex-end; mantém do lado direito
+justify-content: flex-center; mantém no meio
+justify-content: space-around; o espaçamento é maior de todos lados
+justify-content: space-between; o espaçamento é entre o produto
+align-items: center; item fica no meio
+align-items: flex-start; fica a esquerda parte superior
+align-items: flex-end; fica a direita parte inferior
+align-items: stretch; faz a linha vertical 
+align-items: baseline; manter o item alinhado
+align-content: space-around; fica no meio
+
+justify-content: center; 
+align-content: space-around; os dois juntos faz com que os itens
+                             fiquem bem no meio da página
+
+
+
+
+*/

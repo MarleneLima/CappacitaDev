@@ -1,0 +1,31 @@
+.flex-container{
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.flex-items{
+    background-color: rgb(230, 178, 141);
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* 
+margin: 5px; espaçamento entre um item e outro
+padding: 10px; largura da faixa
+display: flex; faz cada numero ficar dentro de um quadrado
+flex-direction: row-reverse; faz a coluna ir para direita e 
+troca o último para o primeiro
+flex-direction: row; eixo principal na horizontal
+flex-direction: column; eixo principal na vertical
+flex-direction: column-reverse; faz do último ao primeiro
+flex-wrap: wrap; caso ultrapasse a barragem, ele agrupa na linha
+de baixo
+flex-flow: row-reverse wrap; caso ultrapasse a barragem, ele
+agrupa na linha de baixo em ordem reversa
+}
+*/

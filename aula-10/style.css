@@ -1,0 +1,17 @@
+h2{
+    background-color: skyblue;
+    color: rgb(151, 29, 151);
+}
+body{
+    background-color: rgba(238, 130, 238, 0.281);
+}
+
+div{
+    background-color: white;
+    margin-top: 50px; /* margem superior*/
+    margin-bottom: 50px ;  /*margem inferior*/
+    margin-right: 90px;
+    margin-left: 90px;
+
+    /* ou margin: 50px 50px 90px 90px */
+}

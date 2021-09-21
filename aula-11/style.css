@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* valor padrão da div */
+
+.div1, .div2, .div3, .div4, .div5{
+    /*seletor de grupo, se todos os div tiverem as mesmas medidas*/
+    float: left;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+}
+div{
+       background-color: rgb(187, 240, 214); /*fundo da página geral*/
+    }
+
+.div1{
+    background-color: palevioletred; 
+}
+
+.div2{
+    background-color: purple;
+    
+}
+.div3{
+    background-color: sandybrown;  
+    visibility: hidden;
+} 
+.div4{
+    background-color: rgb(53, 51, 145);
+    
+}
+.div5{
+    background-color: rgb(96, 244, 170);   
+} 
+
+/*
+ clear: left; quebra de linha
+ float: left; para não deixar espaço entre os cubos,
+    e o texto escrito fica em volta do cubo
+ margin: 10px; gera um espaçamento entre as palavras e o bloco
+ visibility: hidden; para sumir um bloco e ficar no layout
+ display: none: para sumir um bloco e sair do layout
+ */
